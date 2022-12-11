@@ -17,6 +17,9 @@ printf("4] Non-Linear Data Structures\n\n");
 printf("-----------------------------------------------------------------------------------------------------------------\n");
 printf("Choice: ");
 scanf("%d",&main_choice);
+#ifdef linux
+system("clear");
+#else
 system("cls");
 switch (main_choice)
 {
