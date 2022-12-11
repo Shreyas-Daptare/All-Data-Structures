@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
+#define linux
 
 int main()
 {
