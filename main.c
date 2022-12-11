@@ -21,10 +21,12 @@ system("cls");
 switch (main_choice)
 {
 case 1:
+	printf("  Searching Techniques\n\n");
     printf("0: Linear Search Implementation\n");
     printf("1: Binary Search Implementation\n");
     break;
 case 2:
+	printf("  Sorting Techniques\n");
     printf("1: Bubble Sort\n");
     printf("2: Insertion Sort\n");
     printf("3: Selection Sort\n");
@@ -32,6 +34,7 @@ case 2:
     printf("5: Quick Sort\n");
     break;
 case 3:
+	printf("  Linear Data Structures\n");
     printf("1: Array\n");
     printf("2: Stack\n");
     printf("3: Queue\n");
@@ -39,10 +42,10 @@ case 3:
     printf("5: Quick Sort\n");
     break;
 case 4:
+	printf("  Non-Linear Data Structures\n");
     printf("1: Tree\n");
     printf("2: Graph\n");
     break;
 }
 return 0;
 }
-
