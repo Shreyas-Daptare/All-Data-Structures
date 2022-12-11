@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
+
 #define linux
 
 int main()
@@ -22,6 +24,7 @@ scanf("%d",&main_choice);
 system("clear");
 #else
 system("cls");
+#endif
 switch (main_choice)
 {
 case 1:
